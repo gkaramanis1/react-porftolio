@@ -5,7 +5,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(225,225,225,.8); 
+    background: rgba(225,225,225,.8);
   }
   
   li {

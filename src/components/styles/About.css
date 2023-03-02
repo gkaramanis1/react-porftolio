@@ -38,7 +38,6 @@
     text-align:center;
     top:50%;
     transform:translate(-50%, -50%);
-    padding-bottom: 25px;
   }
 
   @keyframes slide {
@@ -57,7 +56,7 @@ h1 {
     padding-bottom: 40px;
 }
 
-img {
+.profile {
     width: 300px;
     display: block;
     margin-left: auto;
