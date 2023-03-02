@@ -1,0 +1,21 @@
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(225,225,225,.8); 
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+
+footer ul li {
+    display: inline;
+    font-size: 2rem;
+    padding: 1rem;
+    color: black;
+  }

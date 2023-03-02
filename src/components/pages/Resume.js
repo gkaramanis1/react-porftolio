@@ -9,7 +9,7 @@ export default function Resume() {
     <div className="content">
       <h1>Resume Page</h1>
       <p>
-        Input Resume Content Later
+        Input Resume Content later
       </p>
     </div>
     </div>
