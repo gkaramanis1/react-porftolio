@@ -6,6 +6,10 @@ const profile =require('../assets/profile.png');
 export default function About() {
   return (
     <div>
+    <div className="background"></div>
+    <div className="background background2"></div>
+    <div className="background background3"></div>
+    <div className="content">
       <h1>Hi! I'm George Karamanis</h1>
       <img src={profile} alt="Profile"/>
       <p>
@@ -16,6 +20,7 @@ export default function About() {
         am always trying to improve and learn new skills that can be applied to
         my professional goals.
       </p>
+    </div>
     </div>
   );
 }
