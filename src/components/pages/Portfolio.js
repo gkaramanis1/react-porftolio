@@ -1,17 +1,48 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 
 const HUBL= require("../assets/galaxy.jpg");
-
+const Password= require("../assets/password.png")
 export default function Portfolio() {
   return (
     <div>
     <div className="background"></div>
     <div className="background background2"></div>
     <div className="background background3"></div>
-    <div className="content">
+    <div style={{overflow:'auto', height:'80%', width:'80%'}} className="content">
       <h1>Some of My Projects!</h1>
       <p>
+      <CardGroup>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={HUBL} />
+      <Card.Body>
+        <Card.Title>HUBL</Card.Title>
+        <Card.Text>
+        Social network to share great destinations!
+        </Card.Text>
+      </Card.Body>
+      <Card.Body>
+        <Card.Link href="https://pacific-brook-72214.herokuapp.com/">Live Site</Card.Link>
+        <Card.Link href="https://github.com/gkaramanis1/PROJECT-2/tree/main">Github</Card.Link>
+      </Card.Body>
+      </Card>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={Password} />
+      <Card.Body>
+        <Card.Title>Password Generator</Card.Title>
+        <Card.Text>
+        Need a password? Generate one here!
+        </Card.Text>
+      </Card.Body>
+      <Card.Body>
+        <Card.Link href="https://gkaramanis1.github.io/password-generator/">Live Site</Card.Link>
+        <Card.Link href="https://github.com/gkaramanis1/password-gen">Github</Card.Link>
+      </Card.Body>
+    </Card>
+    </CardGroup>
+
+    <CardGroup>
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={HUBL} />
       <Card.Body>
@@ -25,7 +56,6 @@ export default function Portfolio() {
         <Card.Link href="#">Github</Card.Link>
       </Card.Body>
       </Card>
-
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={HUBL} />
       <Card.Body>
@@ -39,7 +69,37 @@ export default function Portfolio() {
         <Card.Link href="#">Github</Card.Link>
       </Card.Body>
     </Card>
-    
+    </CardGroup>
+
+    <CardGroup>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={HUBL} />
+      <Card.Body>
+        <Card.Title>HUBL</Card.Title>
+        <Card.Text>
+        Social network to share great destinations!
+        </Card.Text>
+      </Card.Body>
+      <Card.Body>
+        <Card.Link href="#">Live Site</Card.Link>
+        <Card.Link href="#">Github</Card.Link>
+      </Card.Body>
+      </Card>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={HUBL} />
+      <Card.Body>
+        <Card.Title>HUBL</Card.Title>
+        <Card.Text>
+        Social network to share great destinations!
+        </Card.Text>
+      </Card.Body>
+      <Card.Body>
+        <Card.Link href="#">Live Site</Card.Link>
+        <Card.Link href="#">Github</Card.Link>
+      </Card.Body>
+    </Card>
+    </CardGroup>
+
       </p>
     </div>
     </div>
