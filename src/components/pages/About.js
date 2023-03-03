@@ -14,7 +14,6 @@ export default function About() {
       <img src={profile} alt="Profile" className="profile" />
       <p>
         I'm a Full Stack developer that got a certificate from the University of Central Florida coding bootcamp. I'm also an UCF alumni with a Bachelor of Science in Kinesiology. Go Knights! Trying to improve and learn new skills that can be applied to my professional goals is something that I focus on daily. When I'm away from my desk, I enjoy going on runs, playing basketball, and spending time with my family.
-
       </p>
     </div>
     </div>
