@@ -8,7 +8,7 @@
 
 .background {
     animation:slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #f7c59f 50%, #0d47a1 50%);
+    background-image: linear-gradient(-60deg, #fb8500 50%, #023047 50%);
     bottom:0;
     left:-50%;
     opacity:.5;
@@ -72,40 +72,19 @@ p {
     margin-right: auto;
     width: 50em;
     font-family: monospace;
+}
 
+.Card.Text {
+    text-align: center;
 }
 
 @media (min-width: 1500px) {
     body {
         font-size: 1.5rem;
     }
-    .display-6 {
-        font-size: 3rem;
-    }
     .card {
         /*font-size: ;*/
         width: 51%;
-    }
-    .icon {
-        width: 40px;
-        height: 40px;
-    }
-    .btn {
-        font-size: 1.5rem;
-    }
-    .tile {
-        height: 60px;
-        width: 60px;
-    }
-    .image {
-        height: 400px;
-        width: 400px;
-    }
-    .table-text {
-        font-size: 1.5rem;
-    }
-    .custom-table {
-        width: 70%;
     }
 }
 
@@ -114,37 +93,18 @@ p {
     body {
         font-size: 1.1rem;
     }
+
     .display-6 {
         font-size: 2rem;
     }
+
     .card {
         /*font-size: ;*/
         width: 51%;
     }
+
     p {
         font-size: 1rem;
-    }
-    .icon {
-        width: 30px;
-        height: 30px;
-    }
-    .btn {
-        font-size: 1.1rem;
-  
-    }
-    .tile {
-        height: 30px;
-        width: 30px;
-    }
-    .image {
-        height: 300px;
-        width: 300px;
-    }
-    .table-text {
-        font-size: 1.0rem;
-    }
-    .custom-table {
-        width: 70%;
     }
 }
 
@@ -158,28 +118,17 @@ p {
         /*font-size: ;*/
         width: 80%;
     }
-    p{
+
+    p {
         font-size: 0.7rem;
     }
     .content {
         width: 95%;
         height: 75%;
     }
-    .btn {
-        font-size: 1.0rem;
+
+    h1 {
+        text-align: center;
   
-    }
-    .tile {
-        height: 30px;
-        width: 30px;
-    }
-    .text-container {
-        width: 85%;
-    }
-    .table-text {
-        font-size: 0.6rem;
-    }
-    .custom-table {
-        width: 90%;
     }
 }

@@ -14,7 +14,8 @@ export default function Resume() {
 			<div className="center">
 				<h1 className="page-header">My Resume</h1>
 			</div>
-      <h4>What I have learned...So far!</h4>
+      <h4>Some of the skills I have learned<br></br>...so far!</h4>
+      <br></br>
         <ul>
           <li>JavaScript</li>
           <li>ReactJS</li>
@@ -27,8 +28,8 @@ export default function Resume() {
           <li>REST APIs</li>
         </ul>
 			<div className="download">
-			<a href={require("../assets/resume.pdf")} download>
-					<h3>Download My Resume<FaDownload /></h3>
+			<a href={require("../assets/resume.pdf")} download style={{textDecoration: 'none'}}>
+					<h3>Download My Resume <FaDownload /></h3>
 			</a>	
 			</div>
 			</section>
