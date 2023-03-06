@@ -70,12 +70,7 @@ p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50em;
     font-family: monospace;
-}
-
-.Card.Text {
-    text-align: center;
 }
 
 @media (min-width: 1500px) {
@@ -94,17 +89,13 @@ p {
         font-size: 1.1rem;
     }
 
-    .display-6 {
-        font-size: 2rem;
-    }
-
     .card {
         /*font-size: ;*/
         width: 51%;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -121,14 +112,16 @@ p {
 
     p {
         font-size: 0.7rem;
+        overflow-wrap: break-word;
+        white-space: "pre-wrap";
     }
     .content {
         width: 95%;
         height: 75%;
+        
     }
 
     h1 {
         text-align: center;
-  
     }
 }

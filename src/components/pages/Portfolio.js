@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import { FaGithub, FaLink } from "react-icons/fa";  
 
 const HUBL= require("../assets/galaxy.jpg");
 const Password= require("../assets/password.png")
@@ -23,8 +24,8 @@ export default function Portfolio() {
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="https://pacific-brook-72214.herokuapp.com/">Live Site</Card.Link>
-        <Card.Link href="https://github.com/gkaramanis1/PROJECT-2/tree/main">Github</Card.Link>
+        <Card.Link href="https://pacific-brook-72214.herokuapp.com/"><FaLink size={32} color="black"/></Card.Link>
+        <Card.Link href="https://github.com/gkaramanis1/PROJECT-2/tree/main"><FaGithub size={32} color="black"/></Card.Link>
       </Card.Body>
       </Card>
     <Card style={{ width: '18rem' }}>
@@ -36,8 +37,8 @@ export default function Portfolio() {
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="https://gkaramanis1.github.io/password-generator/">Live Site</Card.Link>
-        <Card.Link href="https://github.com/gkaramanis1/password-gen">Github</Card.Link>
+        <Card.Link href="https://gkaramanis1.github.io/password-generator/"><FaLink size={32} color="black"/></Card.Link>
+        <Card.Link href="https://github.com/gkaramanis1/password-gen"><FaGithub size={32} color="black"/></Card.Link>
       </Card.Body>
     </Card>
     </CardGroup>
@@ -52,8 +53,8 @@ export default function Portfolio() {
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#">Live Site</Card.Link>
-        <Card.Link href="#">Github</Card.Link>
+        <Card.Link href="#"><FaLink size={32} color="black"/></Card.Link>
+        <Card.Link href="#"><FaGithub size={32} color="black"/></Card.Link>
       </Card.Body>
       </Card>
     <Card style={{ width: '18rem' }}>
@@ -65,8 +66,8 @@ export default function Portfolio() {
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#">Live Site</Card.Link>
-        <Card.Link href="#">Github</Card.Link>
+        <Card.Link href="#"><FaLink size={32} color="black"/></Card.Link>
+        <Card.Link href="#"><FaGithub size={32} color="black"/></Card.Link>
       </Card.Body>
     </Card>
     </CardGroup>
@@ -81,8 +82,8 @@ export default function Portfolio() {
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#">Live Site</Card.Link>
-        <Card.Link href="#">Github</Card.Link>
+        <Card.Link href="#"><FaLink size={32} color="black"/></Card.Link>
+        <Card.Link href="#"><FaGithub size={32} color="black"/></Card.Link>
       </Card.Body>
       </Card>
     <Card style={{ width: '18rem' }}>
@@ -94,8 +95,8 @@ export default function Portfolio() {
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#">Live Site</Card.Link>
-        <Card.Link href="#">Github</Card.Link>
+        <Card.Link href="#"><FaLink size={32} color="black"/></Card.Link>
+        <Card.Link href="#"><FaGithub size={32} color="black"/></Card.Link>
       </Card.Body>
     </Card>
     </CardGroup>
