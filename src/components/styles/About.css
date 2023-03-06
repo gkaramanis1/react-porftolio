@@ -105,6 +105,10 @@ p {
         font-size: 0.9rem;
     }
     
+    .profile {
+        width: 50%;
+    }
+
     .card {
         /*font-size: ;*/
         width: 80%;
