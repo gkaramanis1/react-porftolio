@@ -12,10 +12,8 @@ export default function Resume() {
       <p>
       <section>
 			<div className="center">
-				<h1 className="page-header">My Resume</h1>
+				<h1 className="page-header" style={{fontWeight: 'bold', fontSize: '25px'}}>Skills:</h1>
 			</div>
-      <h4>Some of the skills I have learned<br></br>...so far!</h4>
-      <br></br>
         <ul>
           <li>JavaScript</li>
           <li>ReactJS</li>

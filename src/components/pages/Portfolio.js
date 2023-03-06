@@ -12,7 +12,7 @@ export default function Portfolio() {
     <div className="background background2"></div>
     <div className="background background3"></div>
     <div style={{overflow:'auto', height:'80%', width:'80%'}} className="content">
-      <h1>Some of My Projects!</h1>
+      <h1 style={{fontWeight: 'bold', fontSize: '25px'}}>Some of My Projects!</h1>
       <p>
       <CardGroup>
       <Card style={{ width: '18rem' }}>
@@ -47,7 +47,7 @@ export default function Portfolio() {
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={HUBL} />
       <Card.Body>
-        <Card.Title>HUBL</Card.Title>
+        <Card.Title>Project 3</Card.Title>
         <Card.Text>
         Social network to share great destinations!
         </Card.Text>
@@ -60,7 +60,7 @@ export default function Portfolio() {
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={HUBL} />
       <Card.Body>
-        <Card.Title>HUBL</Card.Title>
+        <Card.Title>Project 4</Card.Title>
         <Card.Text>
         Social network to share great destinations!
         </Card.Text>
@@ -76,7 +76,7 @@ export default function Portfolio() {
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={HUBL} />
       <Card.Body>
-        <Card.Title>HUBL</Card.Title>
+        <Card.Title>Project 5</Card.Title>
         <Card.Text>
         Social network to share great destinations!
         </Card.Text>
@@ -89,7 +89,7 @@ export default function Portfolio() {
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={HUBL} />
       <Card.Body>
-        <Card.Title>HUBL</Card.Title>
+        <Card.Title>Project 6</Card.Title>
         <Card.Text>
         Social network to share great destinations!
         </Card.Text>

@@ -115,13 +115,13 @@ p {
     }
 
     p {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         overflow-wrap: break-word;
         white-space: "pre-wrap";
     }
     .content {
         width: 90%;
-        height: 60%;
+        height: 70%;
         
     }
 

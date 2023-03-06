@@ -7,7 +7,7 @@ export default function Contact() {
     <div className="background background2"></div>
     <div className="background background3"></div>
     <div className="content">
-      <h1>Contact Page</h1>
+      <h1 style={{fontWeight: 'bold', fontSize: '25px'}}>Contact Page</h1>
       <p>
         Input Contact Me content later
       </p>
