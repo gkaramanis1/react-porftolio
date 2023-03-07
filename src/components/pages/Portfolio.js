@@ -15,11 +15,11 @@ export default function Portfolio() {
       <h1 style={{fontWeight: 'bold', fontSize: '25px'}}>Some of My Projects!</h1>
       <p>
       <CardGroup>
-      <Card style={{ width: '18rem'}}>
+      <Card style={{ width: '18rem', marginBottom: '45px'}}>
       <Card.Img variant="top" src={HUBL} />
       <Card.Body>
-        <Card.Title>HUBL</Card.Title>
-        <Card.Text>
+        <Card.Title style={{ color: 'black'}}>HUBL</Card.Title>
+        <Card.Text style={{ color: 'black'}}>
         Social network to share great destinations!
         </Card.Text>
       </Card.Body>
@@ -28,11 +28,11 @@ export default function Portfolio() {
         <Card.Link href="https://github.com/gkaramanis1/PROJECT-2/tree/main"><FaGithub size={32} color="black"/></Card.Link>
       </Card.Body>
       </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem', marginBottom: '45px' }}>
       <Card.Img variant="top" src={Password} />
       <Card.Body>
-        <Card.Title>Password Generator</Card.Title>
-        <Card.Text>
+        <Card.Title style={{ color: 'black'}}>Password Generator</Card.Title>
+        <Card.Text style={{ color: 'black'}}>
         Need a password? Generate one here!
         </Card.Text>
       </Card.Body>
@@ -44,11 +44,11 @@ export default function Portfolio() {
     </CardGroup>
 
     <CardGroup>
-      <Card style={{ width: '18rem' }}>
+      <Card style={{ width: '18rem', marginBottom: '45px' }}>
       <Card.Img variant="top" src={HUBL} />
       <Card.Body>
-        <Card.Title>Project 3</Card.Title>
-        <Card.Text>
+        <Card.Title style={{ color: 'black'}}>Project 3</Card.Title>
+        <Card.Text style={{ color: 'black'}}>
         Social network to share great destinations!
         </Card.Text>
       </Card.Body>
@@ -57,11 +57,11 @@ export default function Portfolio() {
         <Card.Link href="#"><FaGithub size={32} color="black"/></Card.Link>
       </Card.Body>
       </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem', marginBottom: '45px' }}>
       <Card.Img variant="top" src={HUBL} />
       <Card.Body>
-        <Card.Title>Project 4</Card.Title>
-        <Card.Text>
+        <Card.Title style={{ color: 'black'}}>Project 4</Card.Title>
+        <Card.Text style={{ color: 'black'}}>
         Social network to share great destinations!
         </Card.Text>
       </Card.Body>
@@ -76,8 +76,8 @@ export default function Portfolio() {
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={HUBL} />
       <Card.Body>
-        <Card.Title>Project 5</Card.Title>
-        <Card.Text>
+        <Card.Title style={{ color: 'black'}}>Project 5</Card.Title>
+        <Card.Text style={{ color: 'black'}}>
         Social network to share great destinations!
         </Card.Text>
       </Card.Body>
@@ -89,8 +89,8 @@ export default function Portfolio() {
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={HUBL} />
       <Card.Body>
-        <Card.Title>Project 6</Card.Title>
-        <Card.Text>
+        <Card.Title style={{ color: 'black'}}>Project 6</Card.Title>
+        <Card.Text style={{ color: 'black'}}>
         Social network to share great destinations!
         </Card.Text>
       </Card.Body>

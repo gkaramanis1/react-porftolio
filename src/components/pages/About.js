@@ -5,7 +5,7 @@ const profile =require('../assets/profile.png');
 
 export default function About() {
   return (
-    <div>
+    <div class="container-fluid">
     <div className="background"></div>
     <div className="background background2"></div>
     <div className="background background3"></div>
