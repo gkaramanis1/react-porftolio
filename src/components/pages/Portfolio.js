@@ -15,7 +15,7 @@ export default function Portfolio() {
       <h1 style={{fontWeight: 'bold', fontSize: '25px'}}>Some of My Projects!</h1>
       <p>
       <CardGroup>
-      <Card style={{ width: '18rem' }}>
+      <Card style={{ width: '18rem'}}>
       <Card.Img variant="top" src={HUBL} />
       <Card.Body>
         <Card.Title>HUBL</Card.Title>
