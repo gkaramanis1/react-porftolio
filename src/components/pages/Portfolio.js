@@ -3,8 +3,12 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import { FaGithub, FaLink } from "react-icons/fa";  
 
-const HUBL= require("../assets/galaxy.jpg");
+const HUBL= require("../assets/coffee.jpeg");
 const Password= require("../assets/password.png")
+const Quiz= require("../assets/quiz.png")
+const Schedule= require("../assets/schedule.jpeg")
+const Soon= require("../assets/soon.jpeg")
+
 export default function Portfolio() {
   return (
     <div>
@@ -45,40 +49,40 @@ export default function Portfolio() {
 
     <CardGroup>
       <Card style={{ width: '18rem', marginBottom: '45px' }}>
-      <Card.Img variant="top" src={HUBL} />
+      <Card.Img variant="top" src={Schedule} />
       <Card.Body>
-        <Card.Title style={{ color: 'black'}}>Project 3</Card.Title>
+        <Card.Title style={{ color: 'black'}}>Work Day Scheduler</Card.Title>
         <Card.Text style={{ color: 'black'}}>
-        Social network to share great destinations!
+        Plan out your day!
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#"><FaLink size={32} color="black"/></Card.Link>
-        <Card.Link href="#"><FaGithub size={32} color="black"/></Card.Link>
+        <Card.Link href="https://gkaramanis1.github.io/day-scheduler/"><FaLink size={32} color="black"/></Card.Link>
+        <Card.Link href="https://github.com/gkaramanis1/day-scheduler"><FaGithub size={32} color="black"/></Card.Link>
       </Card.Body>
       </Card>
     <Card style={{ width: '18rem', marginBottom: '45px' }}>
-      <Card.Img variant="top" src={HUBL} />
+      <Card.Img variant="top" src={Quiz} />
       <Card.Body>
-        <Card.Title style={{ color: 'black'}}>Project 4</Card.Title>
+        <Card.Title style={{ color: 'black'}}>Coding quiz</Card.Title>
         <Card.Text style={{ color: 'black'}}>
-        Social network to share great destinations!
+        Test your coding knowledge!
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#"><FaLink size={32} color="black"/></Card.Link>
-        <Card.Link href="#"><FaGithub size={32} color="black"/></Card.Link>
+        <Card.Link href="https://gkaramanis1.github.io/quiz/"><FaLink size={32} color="black"/></Card.Link>
+        <Card.Link href="https://github.com/gkaramanis1/quiz"><FaGithub size={32} color="black"/></Card.Link>
       </Card.Body>
     </Card>
     </CardGroup>
 
     <CardGroup>
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={HUBL} />
+      <Card.Img variant="top" src={Soon} />
       <Card.Body>
         <Card.Title style={{ color: 'black'}}>Project 5</Card.Title>
         <Card.Text style={{ color: 'black'}}>
-        Social network to share great destinations!
+        Coming Soon!
         </Card.Text>
       </Card.Body>
       <Card.Body>
@@ -87,11 +91,11 @@ export default function Portfolio() {
       </Card.Body>
       </Card>
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={HUBL} />
+      <Card.Img variant="top" src={Soon} />
       <Card.Body>
         <Card.Title style={{ color: 'black'}}>Project 6</Card.Title>
         <Card.Text style={{ color: 'black'}}>
-        Social network to share great destinations!
+        Coming Soon!
         </Card.Text>
       </Card.Body>
       <Card.Body>
