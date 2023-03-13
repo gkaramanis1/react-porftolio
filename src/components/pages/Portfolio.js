@@ -7,7 +7,6 @@ const HUBL= require("../assets/coffee.jpeg");
 const Password= require("../assets/password.png")
 const Quiz= require("../assets/quiz.png")
 const Schedule= require("../assets/schedule.jpeg")
-const Soon= require("../assets/soon.jpeg")
 
 export default function Portfolio() {
   return (
@@ -75,37 +74,7 @@ export default function Portfolio() {
       </Card.Body>
     </Card>
     </CardGroup>
-
-    <CardGroup>
-      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Soon} />
-      <Card.Body>
-        <Card.Title style={{ color: 'black'}}>Project 5</Card.Title>
-        <Card.Text style={{ color: 'black'}}>
-        Coming Soon!
-        </Card.Text>
-      </Card.Body>
-      <Card.Body>
-        <Card.Link href="#"><FaLink size={32} color="black"/></Card.Link>
-        <Card.Link href="#"><FaGithub size={32} color="black"/></Card.Link>
-      </Card.Body>
-      </Card>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Soon} />
-      <Card.Body>
-        <Card.Title style={{ color: 'black'}}>Project 6</Card.Title>
-        <Card.Text style={{ color: 'black'}}>
-        Coming Soon!
-        </Card.Text>
-      </Card.Body>
-      <Card.Body>
-        <Card.Link href="#"><FaLink size={32} color="black"/></Card.Link>
-        <Card.Link href="#"><FaGithub size={32} color="black"/></Card.Link>
-      </Card.Body>
-    </Card>
-    </CardGroup>
-
-      </p>
+    </p>
     </div>
     </div>
   );
